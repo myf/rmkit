@@ -1,0 +1,1 @@
+NDSummary.OnToolTipsLoaded("okpClass:ui.MultiText",{69:"<div class=\"NDToolTip TClass Lokp\"><div class=\"TTSummary\">the MultiText class is for writing multiple lines of text, as it automatically inserts line breaks where appropriate when rendering</div></div>"});

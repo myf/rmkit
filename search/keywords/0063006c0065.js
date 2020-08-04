@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("cle",["Function"],[["clear_screen",,[["framebuffer.FB",,,,0,"File:rmkit/fb/fb.cpy:framebuffer.FB.clear_screen","okpClass:framebuffer.FB:clear_screen"]]]]);

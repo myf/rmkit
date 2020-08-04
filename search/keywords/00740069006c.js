@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("til",["Variable"],[["tilt_x",,[["input.SynMouseEvent",,,,0,"File:rmkit/input/events.cpy:input.SynMouseEvent.tilt_x","okpClass:input.SynMouseEvent:tilt_x"]]],["tilt_y",,[["input.SynMouseEvent",,,,0,"File:rmkit/input/events.cpy:input.SynMouseEvent.tilt_y","okpClass:input.SynMouseEvent:tilt_y"]]]]);

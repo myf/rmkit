@@ -1,0 +1,1 @@
+NDSummary.OnToolTipsLoaded("okpClass:input.SynKeyEvent",{11:"<div class=\"NDToolTip TClass Lokp\"><div class=\"TTSummary\">This represents a button press, can be from keyboard or from the hardware button on the remarkable</div></div>"});

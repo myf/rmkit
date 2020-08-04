@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("tex",["Class"],[["Text",,[["ui",,,,0,"File:rmkit/ui/text.cpy:ui.Text","okpClass:ui.Text"]]]]);

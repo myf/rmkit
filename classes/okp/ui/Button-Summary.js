@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("okpClass:ui.Button","Button");NDSummary.OnSummaryLoaded("okpClass:ui.Button",[["okp","okp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[61,0,0,"<span class=\"Qualifier\">ui::</span>&#8203;Button"],[53,0,2,"Functions","Functions"],[52,0,1,"Button","Button"],[55,0,1,"set_justification","set_justification"]]);

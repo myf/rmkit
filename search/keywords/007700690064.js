@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("wid",["Class"],[["Widget",,[["ui",,,,0,"File:rmkit/ui/widget.cpy:ui.Widget","okpClass:ui.Widget"]]]]);

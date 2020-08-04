@@ -1,0 +1,1 @@
+NDMenu.OnSectionLoaded("files.js",[[2,"fb","File:rmkit/fb/",[[1,"fb.cpy"]]],[2,"input","File:rmkit/input/",[[1,"events.cpy"]]],[2,"ui","File:rmkit/ui/",[[1,"button.cpy"],[1,"dialog.cpy"],[1,"layouts.cpy"],[1,"main_loop.cpy"],[1,"text.cpy"],[1,"widget.cpy"]]]]);

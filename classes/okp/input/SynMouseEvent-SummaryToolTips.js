@@ -1,0 +1,1 @@
+NDSummary.OnToolTipsLoaded("okpClass:input.SynMouseEvent",{1:"<div class=\"NDToolTip TClass Lokp\"><div class=\"TTSummary\">A synthetic mouse event that covers mouse events, touch events and stylus events</div></div>"});

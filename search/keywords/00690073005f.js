@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("is_",["Variable"],[["is_pressed",,[["input.SynKeyEvent",,,,0,"File:rmkit/input/events.cpy:input.SynKeyEvent.is_pressed","okpClass:input.SynKeyEvent:is_pressed"]]]]);

@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("mid",["Variable"],[["middle",,[["input.SynMouseEvent",,,,0,"File:rmkit/input/events.cpy:input.SynMouseEvent.middle","okpClass:input.SynMouseEvent:middle"]]]]);

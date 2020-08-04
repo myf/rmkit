@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("okpClass:ui.Text","Text");NDSummary.OnSummaryLoaded("okpClass:ui.Text",[["okp","okp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[66,0,0,"<span class=\"Qualifier\">ui::</span>&#8203;Text"],[67,0,2,"Functions","Functions"],[68,0,1,"Constructor","Constructor"]]);

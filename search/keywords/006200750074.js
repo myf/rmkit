@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("but",["Class"],[["Button",,[["ui",,,,0,"File:rmkit/ui/button.cpy:ui.Button","okpClass:ui.Button"]]]]);
