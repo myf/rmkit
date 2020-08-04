@@ -1,1 +1,1 @@
-NDSearch.OnPrefixDataLoaded("fb",["Class","Variable"],[["fb",,[["framebuffer","FB",,,0,"File:rmkit/fb/fb.cpy:framebuffer.FB","okpClass:framebuffer.FB"],["ui.Widget",,,,1,"File:rmkit/ui/widget.cpy:ui.Widget.fb","okpClass:ui.Widget:fb"]]]]);
+NDSearch.OnPrefixDataLoaded("fb",["Class","Variable"],[["fb",,[["framebuffer","FB",,,0,"File:rmkit/fb/fb.cpy:framebuffer.FB","okpClass:framebuffer.FB"],["ui::Widget",,,,1,"File:rmkit/ui/widget.cpy:ui.Widget.fb","okpClass:ui.Widget:fb"]]]]);

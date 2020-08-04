@@ -8,58 +8,58 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="Topic71"></a><div class="CTopic TClass Lokp first">
+<a name="Topic70"></a><div class="CTopic TClass Lokp first">
  <div class="CTitle"><span class="Qualifier">ui::</span>&#8203;MainLoop</div>
  <div class="CBody"><p>The MainLoop is responsible for redrawing widgets, dispatching events, and other core work that happens on each iteration of the app.</p></div>
 </div>
 
-<a name="Variables"></a><a name="Topic72"></a><div class="CTopic TGroup Lokp">
+<a name="Variables"></a><a name="Topic71"></a><div class="CTopic TGroup Lokp">
  <div class="CTitle">Variables</div>
 </div>
 
-<a name="motion_event"></a><a name="Topic73"></a><div class="CTopic TVariable Lokp">
+<a name="motion_event"></a><a name="Topic72"></a><div class="CTopic TVariable Lokp">
  <div class="CTitle">motion_event</div>
- <div id="NDPrototype73" class="NDPrototype NoParameterForm"><span class="SHKeyword">static</span> MOUSE_EVENT motion_event</div>
+ <div id="NDPrototype72" class="NDPrototype NoParameterForm"><span class="SHKeyword">static</span> MOUSE_EVENT motion_event</div>
  <div class="CBody"><p>motion_event is used for subscribing to motion_events</p><pre><span class="SHComment">// d is of type input::SynMouseEvent</span><br />MainLoop::motion_event += [=](auto &amp;d) { };</pre></div>
 </div>
 
-<a name="key_event"></a><a name="Topic74"></a><div class="CTopic TVariable Lokp">
+<a name="key_event"></a><a name="Topic73"></a><div class="CTopic TVariable Lokp">
  <div class="CTitle">key_event</div>
- <div id="NDPrototype74" class="NDPrototype NoParameterForm"><span class="SHKeyword">static</span> KEY_EVENT key_event</div>
+ <div id="NDPrototype73" class="NDPrototype NoParameterForm"><span class="SHKeyword">static</span> KEY_EVENT key_event</div>
  <div class="CBody"><p>key_event is used for subscribing to key_events</p><pre><span class="SHComment">// d is of type input::SynKeyEvent</span><br />MainLoop::key_event += [=](auto &amp;d) { };</pre></div>
 </div>
 
-<a name="Functions"></a><a name="Topic75"></a><div class="CTopic TGroup Lokp">
+<a name="Functions"></a><a name="Topic74"></a><div class="CTopic TGroup Lokp">
  <div class="CTitle">Functions</div>
 </div>
 
-<a name="redraw"></a><a name="Topic76"></a><div class="CTopic TFunction Lokp">
+<a name="redraw"></a><a name="Topic75"></a><div class="CTopic TFunction Lokp">
  <div class="CTitle">redraw</div>
- <div id="NDPrototype76" class="NDPrototype NoParameterForm"><span class="SHKeyword">static void</span> redraw():</div>
+ <div id="NDPrototype75" class="NDPrototype NoParameterForm"><span class="SHKeyword">static void</span> redraw():</div>
  <div class="CBody"><p>sync the framebuffer to the screen, required in order to update what the screen is showing after any draw calls</p></div>
 </div>
 
-<a name="main"></a><a name="Topic77"></a><div class="CTopic TFunction Lokp">
+<a name="main"></a><a name="Topic76"></a><div class="CTopic TFunction Lokp">
  <div class="CTitle">main</div>
- <div id="NDPrototype77" class="NDPrototype NoParameterForm"><span class="SHKeyword">static void</span> main():</div>
+ <div id="NDPrototype76" class="NDPrototype NoParameterForm"><span class="SHKeyword">static void</span> main():</div>
  <div class="CBody"><p>this function does several thinsg:</p><ul><li><p>dispatches input events to widgets</p></li><li><p>runs tasks in the task queue</p></li><li><p>redraws the current scene and overlay's dirty widgets</p></li></ul></div>
 </div>
 
-<a name="set_scene"></a><a name="Topic78"></a><div class="CTopic TFunction Lokp">
+<a name="set_scene"></a><a name="Topic77"></a><div class="CTopic TFunction Lokp">
  <div class="CTitle">set_scene</div>
- <div id="NDPrototype78" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">static void</span> set_scene(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Scene&nbsp;</td><td class="PName last">s</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
+ <div id="NDPrototype77" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">static void</span> set_scene(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><a href="../../../index.html#okpClass:ui.Scene" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,52);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Scene</a>&nbsp;</td><td class="PName last">s</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
  <div class="CBody"><p>set the main scene for the app to display when drawing</p></div>
 </div>
 
-<a name="show_overlay"></a><a name="Topic79"></a><div class="CTopic TFunction Lokp">
+<a name="show_overlay"></a><a name="Topic78"></a><div class="CTopic TFunction Lokp">
  <div class="CTitle">show_overlay</div>
- <div id="NDPrototype79" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">static void</span> show_overlay(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Scene&nbsp;</td><td class="PName last">s</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
+ <div id="NDPrototype78" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">static void</span> show_overlay(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><a href="../../../index.html#okpClass:ui.Scene" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,52);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Scene</a>&nbsp;</td><td class="PName last">s</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
  <div class="CBody"><p>set the main scene for the app to display when drawing</p></div>
 </div>
 
-<a name="hide_overlay"></a><a name="Topic80"></a><div class="CTopic TFunction Lokp last">
+<a name="hide_overlay"></a><a name="Topic79"></a><div class="CTopic TFunction Lokp last">
  <div class="CTitle">hide_overlay</div>
- <div id="NDPrototype80" class="NDPrototype NoParameterForm"><span class="SHKeyword">static void</span> hide_overlay():</div>
+ <div id="NDPrototype79" class="NDPrototype NoParameterForm"><span class="SHKeyword">static void</span> hide_overlay():</div>
  <div class="CBody"><p>hide the overlay</p></div>
 </div>
 

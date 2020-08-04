@@ -1,1 +1,1 @@
-NDSearch.OnPrefixDataLoaded("mot",["Variable"],[["motion_event",,[["ui.MainLoop",,,,0,"File:rmkit/ui/main_loop.cpy:ui.MainLoop.motion_event","okpClass:ui.MainLoop:motion_event"]]]]);
+NDSearch.OnPrefixDataLoaded("mot",["Variable"],[["motion_event",,[["ui::MainLoop",,,,0,"File:rmkit/ui/main_loop.cpy:ui.MainLoop.motion_event","okpClass:ui.MainLoop:motion_event"]]]]);

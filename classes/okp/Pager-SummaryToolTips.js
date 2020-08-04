@@ -1,0 +1,1 @@
+NDSummary.OnToolTipsLoaded("okpClass:Pager",{52:"<div class=\"NDToolTip TClass Lokp\"><div class=\"NDClassPrototype\" id=\"NDClassPrototype52\"><div class=\"CPEntry TClass Current\"><div class=\"CPName\">Pager</div></div></div><div class=\"TTSummary\">a Pager is a modal dialog that lets one browse through multiple pages of results using a next and previous button.</div></div>"});

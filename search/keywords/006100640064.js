@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("add",["Function"],[["add",,[["ui::Scene",,,,0,"File:rmkit/ui/scene.cpy:ui.Scene.add","okpClass:ui.Scene:add"]]]]);

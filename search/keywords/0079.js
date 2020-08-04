@@ -1,1 +1,1 @@
-NDSearch.OnPrefixDataLoaded("y",["Variable"],[["y",,[["ui.Widget",,,,0,"File:rmkit/ui/widget.cpy:ui.Widget.y","okpClass:ui.Widget:y"]]]]);
+NDSearch.OnPrefixDataLoaded("y",["Variable"],[["y",,[["ui::Widget",,,,0,"File:rmkit/ui/widget.cpy:ui.Widget.y","okpClass:ui.Widget:y"]]]]);

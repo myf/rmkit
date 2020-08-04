@@ -1,1 +1,1 @@
-NDSearch.OnPrefixDataLoaded("lef",["Variable"],[["left",,[["input.SynMouseEvent",,,,0,"File:rmkit/input/events.cpy:input.SynMouseEvent.left","okpClass:input.SynMouseEvent:left"]]]]);
+NDSearch.OnPrefixDataLoaded("lef",["Variable"],[["left",,[["input::SynMouseEvent",,,,0,"File:rmkit/input/events.cpy:input.SynMouseEvent.left","okpClass:input.SynMouseEvent:left"]]]]);

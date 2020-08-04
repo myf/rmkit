@@ -1,1 +1,1 @@
-NDSearch.OnPrefixDataLoaded("hid",["Function"],[["hide",,[["ui.Widget",,,,0,"File:rmkit/ui/widget.cpy:ui.Widget.hide","okpClass:ui.Widget:hide"]]],["hide_overlay",,[["ui.MainLoop",,,,0,"File:rmkit/ui/main_loop.cpy:ui.MainLoop.hide_overlay","okpClass:ui.MainLoop:hide_overlay"]]]]);
+NDSearch.OnPrefixDataLoaded("hid",["Function"],[["hide",,[["ui::Widget",,,,0,"File:rmkit/ui/widget.cpy:ui.Widget.hide","okpClass:ui.Widget:hide"]]],["hide_overlay",,[["ui::MainLoop",,,,0,"File:rmkit/ui/main_loop.cpy:ui.MainLoop.hide_overlay","okpClass:ui.MainLoop:hide_overlay"]]]]);

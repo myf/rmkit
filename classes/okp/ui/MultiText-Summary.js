@@ -1,1 +1,1 @@
-NDFramePage.OnPageTitleLoaded("okpClass:ui.MultiText","MultiText");NDSummary.OnSummaryLoaded("okpClass:ui.MultiText",[["okp","okp"]],[["Classes","Class"]],[[69,0,0,"<span class=\"Qualifier\">ui::</span>&#8203;MultiText"]]);
+NDFramePage.OnPageTitleLoaded("okpClass:ui.MultiText","MultiText");NDSummary.OnSummaryLoaded("okpClass:ui.MultiText",[["okp","okp"]],[["Classes","Class"]],[[56,0,0,"<span class=\"Qualifier\">ui::</span>&#8203;MultiText"]]);

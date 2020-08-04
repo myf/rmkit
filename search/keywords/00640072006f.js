@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("dro",["Function"],[["Dropdown",,[["ui::Text","Text Dropdown",,,0,"File:rmkit/ui/text.cpy:ui.Text.Text_Dropdown","okpClass:ui.Text:Text_Dropdown"]]]]);

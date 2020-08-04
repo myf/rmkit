@@ -1,1 +1,1 @@
-NDSearch.OnPrefixDataLoaded("mar",["Function"],[["mark_redraw",,[["ui.Widget",,,,0,"File:rmkit/ui/widget.cpy:ui.Widget.mark_redraw","okpClass:ui.Widget:mark_redraw"]]]]);
+NDSearch.OnPrefixDataLoaded("mar",["Function"],[["mark_redraw",,[["ui::Widget",,,,0,"File:rmkit/ui/widget.cpy:ui.Widget.mark_redraw","okpClass:ui.Widget:mark_redraw"]]]]);

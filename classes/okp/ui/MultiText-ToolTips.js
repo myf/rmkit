@@ -1,1 +1,1 @@
-NDContentPage.OnToolTipsLoaded({});
+NDContentPage.OnToolTipsLoaded({80:"<div class=\"NDToolTip TClass Lokp\"><div class=\"NDClassPrototype\" id=\"NDClassPrototype80\"><div class=\"CPEntry TClass Current\"><div class=\"CPName\"><span class=\"Qualifier\">ui::</span>&#8203;Text</div></div></div><div class=\"TTSummary\">the ui::Text class is a Widget that can render a single line of text.</div></div>"});

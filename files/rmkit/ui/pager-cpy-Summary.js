@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("File:rmkit/ui/pager.cpy","pager.cpy");NDSummary.OnSummaryLoaded("File:rmkit/ui/pager.cpy",[["okp","okp"]],[["Classes","Class"]],[[61,0,0,"<span class=\"Qualifier\">ui::</span>&#8203;Pager","ui.Pager"]]);

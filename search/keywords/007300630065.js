@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("sce",["Class"],[["Scene",,[["ui",,,,0,"File:rmkit/ui/scene.cpy:ui.Scene","okpClass:ui.Scene"]]]]);

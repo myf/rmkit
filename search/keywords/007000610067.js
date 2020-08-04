@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("pag",["Class"],[["Pager",,[["ui",,,,0,"File:rmkit/ui/pager.cpy:ui.Pager","okpClass:ui.Pager"]]]]);
