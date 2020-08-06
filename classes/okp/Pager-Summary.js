@@ -1,1 +1,0 @@
-NDFramePage.OnPageTitleLoaded("okpClass:Pager","Pager");NDSummary.OnSummaryLoaded("okpClass:Pager",[["okp","okp"]],[["Classes","Class"]],[[52,0,0,"Pager"]]);

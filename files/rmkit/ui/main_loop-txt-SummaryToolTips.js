@@ -1,0 +1,1 @@
+NDSummary.OnToolTipsLoaded("File:rmkit/ui/main_loop.txt",{});

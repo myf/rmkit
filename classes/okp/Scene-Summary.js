@@ -1,1 +1,0 @@
-NDFramePage.OnPageTitleLoaded("okpClass:Scene","Scene");NDSummary.OnSummaryLoaded("okpClass:Scene",[["okp","okp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[88,0,0,"Scene"],[89,0,2,"Functions","Functions"],[90,0,1,"add","add"],[91,0,1,"add","add(2)"]]);

@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("pip",["Section"],[["Pipeline",,[[,"Asset Pipeline",,,0,"File:rmkit/ui/assets.txt:Asset_Pipeline"]]]]);
