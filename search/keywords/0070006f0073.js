@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("pos",["Function"],[["position_dialog",,[["ui::Dialog",,,,0,"File:rmkit/ui/dialog.cpy:ui.Dialog.position_dialog","okpClass:ui.Dialog:position_dialog"]]]]);

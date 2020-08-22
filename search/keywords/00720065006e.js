@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("ren",["Function"],[["render",,[["ui::MainLoop",,,,0,"File:rmkit/ui/main_loop.cpy:ui.MainLoop.render","okpClass:ui.MainLoop:render"],["ui::Widget",,,,0,"File:rmkit/ui/widget.cpy:ui.Widget.render","okpClass:ui.Widget:render"]]]]);

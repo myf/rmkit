@@ -8,19 +8,25 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="Topic90"></a><div class="CTopic TClass Lokp first">
+<a name="Topic23"></a><div class="CTopic TClass Lokp first">
  <div class="CTitle"><span class="Qualifier">ui::</span>&#8203;Dialog</div>
- <div class="NDClassPrototype HasParents HasChildren" id="NDClassPrototype90"><a class="CPEntry Parent TClass" href="../../../index.html#okpClass:ui.Widget" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,30);" onmouseout="NDContentPage.OnLinkMouseOut(event);" ><div class="CPModifiers"><span class="SHKeyword">public</span></div><div class="CPName"><span class="Qualifier">ui::</span>&#8203;Widget</div></a><div class="CPEntry TClass Current"><div class="CPName"><span class="Qualifier">ui::</span>&#8203;Dialog</div></div><a class="CPEntry Child TClass" href="../../../index.html#okpClass:ui.Pager" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,61);" onmouseout="NDContentPage.OnLinkMouseOut(event);" ><div class="CPName"><span class="Qualifier">ui::</span>&#8203;Pager</div></a></div>
+ <div class="NDClassPrototype HasParents HasChildren" id="NDClassPrototype23"><a class="CPEntry Parent TClass" href="../../../index.html#okpClass:ui.Widget" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,27);" onmouseout="NDContentPage.OnLinkMouseOut(event);" ><div class="CPModifiers"><span class="SHKeyword">public</span></div><div class="CPName"><span class="Qualifier">ui::</span>&#8203;Widget</div></a><div class="CPEntry Parent TClass"><div class="CPModifiers"><span class="SHKeyword">public</span></div><div class="CPName"><span class="Qualifier">ui.</span>&#8203;IDialog</div></div><div class="CPEntry TClass Current"><div class="CPName"><span class="Qualifier">ui::</span>&#8203;Dialog</div></div><a class="CPEntry Child TClass" href="../../../index.html#okpClass:ui.Pager" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,16);" onmouseout="NDContentPage.OnLinkMouseOut(event);" ><div class="CPName"><span class="Qualifier">ui::</span>&#8203;Pager</div></a></div>
  <div class="CBody"><p>A dialog is used to display a centered frame on the screen.&nbsp; The normal way to use a dialog is to instantiate it, then set its title and content widget values</p><p>there are two defaut dialog types that supply buttons:</p><ul><li><p>InfoDialog supplies an &quot;OK&quot; button only</p></li><li><p>ConfirmationDialog supplies an &quot;OK&quot; and &quot;CANCEL&quot; button</p></li></ul><p>To setup custom buttons, `buttons` can be modified before the dialog is first shown.</p><p>When these buttons are clicked, the on_button_selected callback in the Dialog will be called</p></div>
 </div>
 
-<a name="Functions"></a><a name="Topic17"></a><div class="CTopic TGroup Lokp">
+<a name="Functions"></a><a name="Topic24"></a><div class="CTopic TGroup Lokp">
  <div class="CTitle">Functions</div>
 </div>
 
-<a name="on_button_selected"></a><a name="Topic18"></a><div class="CTopic TFunction Lokp last">
+<a name="position_dialog"></a><a name="Topic100"></a><div class="CTopic TFunction Lokp">
+ <div class="CTitle">position_dialog</div>
+ <div id="NDPrototype100" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual void</span> position_dialog():</div>
+ <div class="CBody"><p>override position_dialog if you want to control where the dialog is placed on the page. by default, the dialog will be centered</p></div>
+</div>
+
+<a name="on_button_selected"></a><a name="Topic25"></a><div class="CTopic TFunction Lokp last">
  <div class="CTitle">on_button_selected</div>
- <div id="NDPrototype18" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">virtual void</span> on_button_selected(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><span class="SHKeyword">string</span>&nbsp;</td><td class="PName last">s</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
+ <div id="NDPrototype25" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">virtual void</span> on_button_selected(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><span class="SHKeyword">string</span>&nbsp;</td><td class="PName last">s</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
  <div class="CBody"><p>this is called when the dialog's buttons are pressed</p></div>
 </div>
 

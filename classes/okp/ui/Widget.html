@@ -8,105 +8,117 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="Topic30"></a><div class="CTopic TClass Lokp first">
+<a name="Topic27"></a><div class="CTopic TClass Lokp first">
  <div class="CTitle"><span class="Qualifier">ui::</span>&#8203;Widget</div>
  <div class="CBody"><p>The widget class is the base of all other widgets. A widget is typically a piece of UI that can receive inputs and draw to screen through the frame buffer</p></div>
 </div>
 
-<a name="Variables"></a><a name="Topic31"></a><div class="CTopic TGroup Lokp">
+<a name="Variables"></a><a name="Topic28"></a><div class="CTopic TGroup Lokp">
  <div class="CTitle">Variables</div>
 </div>
 
-<a name="fb"></a><a name="Topic32"></a><div class="CTopic TVariable Lokp">
+<a name="fb"></a><a name="Topic29"></a><div class="CTopic TVariable Lokp">
  <div class="CTitle">fb</div>
- <div id="NDPrototype32" class="NDPrototype NoParameterForm"><span class="SHKeyword">static</span> <a href="../../../index.html#okpClass:framebuffer.FB" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,19);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >framebuffer::FB</a> *fb</div>
+ <div id="NDPrototype29" class="NDPrototype NoParameterForm"><span class="SHKeyword">static</span> <a href="../../../index.html#okpClass:framebuffer.FB" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,67);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >framebuffer::FB</a> *fb</div>
  <div class="CBody"><p>every widget has access to fb through self.fb and therefore can (and should) draw directly to the framebuffer</p></div>
 </div>
 
-<a name="x,y,w,h"></a><a name="Topic33"></a><div class="CTopic TVariable Lokp">
+<a name="x,y,w,h"></a><a name="Topic30"></a><div class="CTopic TVariable Lokp">
  <div class="CTitle">x, y, w, h</div>
- <div id="NDPrototype33" class="NDPrototype NoParameterForm"><span class="SHKeyword">int</span> x, y, w, h</div>
- <div class="CBody"><table class="CDefinitionList"><tr><td class="CDLEntry"><a name="x"></a><a name="Topic34"></a>x</td><td class="CDLDefinition"><p>the x coordinate of the widget.</p></td></tr><tr><td class="CDLEntry"><a name="y"></a><a name="Topic35"></a>y</td><td class="CDLDefinition"><p>the y coordinate of the widget.</p></td></tr><tr><td class="CDLEntry"><a name="w"></a><a name="Topic36"></a>w</td><td class="CDLDefinition"><p>the width of the widget</p></td></tr><tr><td class="CDLEntry"><a name="h"></a><a name="Topic37"></a>h</td><td class="CDLDefinition"><p>the height of the widget</p></td></tr></table></div>
+ <div id="NDPrototype30" class="NDPrototype NoParameterForm"><span class="SHKeyword">int</span> x, y, w, h</div>
+ <div class="CBody"><table class="CDefinitionList"><tr><td class="CDLEntry"><a name="x"></a><a name="Topic31"></a>x</td><td class="CDLDefinition"><p>the x coordinate of the widget.</p></td></tr><tr><td class="CDLEntry"><a name="y"></a><a name="Topic32"></a>y</td><td class="CDLDefinition"><p>the y coordinate of the widget.</p></td></tr><tr><td class="CDLEntry"><a name="w"></a><a name="Topic33"></a>w</td><td class="CDLDefinition"><p>the width of the widget</p></td></tr><tr><td class="CDLEntry"><a name="h"></a><a name="Topic34"></a>h</td><td class="CDLDefinition"><p>the height of the widget</p></td></tr></table></div>
 </div>
 
-<a name="Functions"></a><a name="Topic38"></a><div class="CTopic TGroup Lokp">
+<a name="Functions"></a><a name="Topic35"></a><div class="CTopic TGroup Lokp">
  <div class="CTitle">Functions</div>
 </div>
 
-<a name="Constructor"></a><a name="Topic39"></a><div class="CTopic TFunction Lokp">
+<a name="Constructor"></a><a name="Topic36"></a><div class="CTopic TFunction Lokp">
  <div class="CTitle">Constructor</div>
  <div class="CBody"><p>parameters:</p><table class="CDefinitionList"><tr><td class="CDLEntry">x</td><td class="CDLDefinition"><p>the x coord of the top left of the widget</p></td></tr><tr><td class="CDLEntry">y</td><td class="CDLDefinition"><p>the y coord of the top left of the widget</p></td></tr><tr><td class="CDLEntry">w</td><td class="CDLDefinition"><p>the width of the widget</p></td></tr><tr><td class="CDLEntry">h</td><td class="CDLDefinition"><p>the height of the widget</p></td></tr></table></div>
 </div>
 
-<a name="mark_redraw"></a><a name="Topic40"></a><div class="CTopic TFunction Lokp">
+<a name="mark_redraw"></a><a name="Topic37"></a><div class="CTopic TFunction Lokp">
  <div class="CTitle">mark_redraw</div>
- <div id="NDPrototype40" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual void</span> mark_redraw():</div>
+ <div id="NDPrototype37" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual void</span> mark_redraw():</div>
  <div class="CBody"><p>marks this widget as needing to be redrawn during the next redraw cycle of the main loop</p></div>
 </div>
 
-<a name="before_redraw"></a><a name="Topic41"></a><div class="CTopic TFunction Lokp">
- <div class="CTitle">before_redraw</div>
- <div id="NDPrototype41" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual void</span> before_redraw():</div>
- <div class="CBody"><p>before_redraw is called on a widget before it is redrawn.</p><p>this function can be used by a widget query data that it needs to render itself and other ways</p></div>
+<a name="before_render"></a><a name="Topic38"></a><div class="CTopic TFunction Lokp">
+ <div class="CTitle">before_render</div>
+ <div id="NDPrototype38" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual void</span> before_render():</div>
+ <div class="CBody"><p>before_render is called on a widget before it is rendern.</p><p>this function can be used by a widget query data that it needs to render itself and other ways</p></div>
 </div>
 
-<a name="redraw"></a><a name="Topic42"></a><div class="CTopic TFunction Lokp">
- <div class="CTitle">redraw</div>
- <div id="NDPrototype42" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual void</span> redraw():</div>
- <div class="CBody"><p>redraws the widget.</p><p>this function is responsible for redrawing the widget to the framebuffer using a combination of draw_line, draw_text and draw_rectangle calls</p></div>
+<a name="render"></a><a name="Topic39"></a><div class="CTopic TFunction Lokp">
+ <div class="CTitle">render</div>
+ <div id="NDPrototype39" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual void</span> render():</div>
+ <div class="CBody"><p>redraws the widget.</p><p>this function is responsible for rendering the widget to the framebuffer using a combination of draw_line, draw_text and draw_rectangle calls</p></div>
 </div>
 
-<a name="hide"></a><a name="Topic43"></a><div class="CTopic TFunction Lokp">
+<a name="hide"></a><a name="Topic40"></a><div class="CTopic TFunction Lokp">
  <div class="CTitle">hide</div>
- <div id="NDPrototype43" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual void</span> hide():</div>
+ <div id="NDPrototype40" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual void</span> hide():</div>
  <div class="CBody"><p>hides the widget</p></div>
 </div>
 
-<a name="show"></a><a name="Topic44"></a><div class="CTopic TFunction Lokp">
+<a name="show"></a><a name="Topic41"></a><div class="CTopic TFunction Lokp">
  <div class="CTitle">show</div>
- <div id="NDPrototype44" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual void</span> show():</div>
+ <div id="NDPrototype41" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual void</span> show():</div>
  <div class="CBody"><p>shows the widget</p></div>
 </div>
 
-<a name="on_mouse_enter"></a><a name="Topic45"></a><div class="CTopic TFunction Lokp">
+<a name="on_mouse_enter"></a><a name="Topic42"></a><div class="CTopic TFunction Lokp">
  <div class="CTitle">on_mouse_enter</div>
- <div id="NDPrototype45" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">virtual void</span> on_mouse_enter(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PModifierQualifier first"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >input::</a></td><td class="PType"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SynMouseEvent</a>&nbsp;</td><td class="PNamePrefix">&amp;</td><td class="PName last">ev</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
+ <div id="NDPrototype42" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">virtual void</span> on_mouse_enter(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PModifierQualifier first"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >input::</a></td><td class="PType"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SynMouseEvent</a>&nbsp;</td><td class="PNamePrefix">&amp;</td><td class="PName last">ev</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
  <div class="CBody"><p>called when the motion device enters the widget's bounding box</p></div>
 </div>
 
-<a name="on_mouse_leave"></a><a name="Topic46"></a><div class="CTopic TFunction Lokp">
+<a name="on_mouse_leave"></a><a name="Topic43"></a><div class="CTopic TFunction Lokp">
  <div class="CTitle">on_mouse_leave</div>
- <div id="NDPrototype46" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">virtual void</span> on_mouse_leave(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PModifierQualifier first"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >input::</a></td><td class="PType"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SynMouseEvent</a>&nbsp;</td><td class="PNamePrefix">&amp;</td><td class="PName last">ev</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
+ <div id="NDPrototype43" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">virtual void</span> on_mouse_leave(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PModifierQualifier first"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >input::</a></td><td class="PType"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SynMouseEvent</a>&nbsp;</td><td class="PNamePrefix">&amp;</td><td class="PName last">ev</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
  <div class="CBody"><p>calls when the motion device leaves the widget's bounding box</p></div>
 </div>
 
-<a name="on_mouse_click"></a><a name="Topic47"></a><div class="CTopic TFunction Lokp">
+<a name="on_mouse_click"></a><a name="Topic44"></a><div class="CTopic TFunction Lokp">
  <div class="CTitle">on_mouse_click</div>
- <div id="NDPrototype47" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">virtual void</span> on_mouse_click(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PModifierQualifier first"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >input::</a></td><td class="PType"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SynMouseEvent</a>&nbsp;</td><td class="PNamePrefix">&amp;</td><td class="PName last">ev</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
+ <div id="NDPrototype44" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">virtual void</span> on_mouse_click(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PModifierQualifier first"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >input::</a></td><td class="PType"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SynMouseEvent</a>&nbsp;</td><td class="PNamePrefix">&amp;</td><td class="PName last">ev</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
  <div class="CBody"><p>called when the motion device is activated, either by finger press or stylus press</p></div>
 </div>
 
-<a name="on_mouse_down"></a><a name="Topic48"></a><div class="CTopic TFunction Lokp">
+<a name="on_mouse_down"></a><a name="Topic45"></a><div class="CTopic TFunction Lokp">
  <div class="CTitle">on_mouse_down</div>
- <div id="NDPrototype48" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">virtual void</span> on_mouse_down(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PModifierQualifier first"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >input::</a></td><td class="PType"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SynMouseEvent</a>&nbsp;</td><td class="PNamePrefix">&amp;</td><td class="PName last">ev</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
+ <div id="NDPrototype45" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">virtual void</span> on_mouse_down(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PModifierQualifier first"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >input::</a></td><td class="PType"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SynMouseEvent</a>&nbsp;</td><td class="PNamePrefix">&amp;</td><td class="PName last">ev</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
  <div class="CBody"><p>called when the mouse is pressed down inside a widget</p></div>
 </div>
 
-<a name="on_mouse_up"></a><a name="Topic49"></a><div class="CTopic TFunction Lokp">
+<a name="on_mouse_up"></a><a name="Topic46"></a><div class="CTopic TFunction Lokp">
  <div class="CTitle">on_mouse_up</div>
- <div id="NDPrototype49" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">virtual void</span> on_mouse_up(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PModifierQualifier first"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >input::</a></td><td class="PType"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SynMouseEvent</a>&nbsp;</td><td class="PNamePrefix">&amp;</td><td class="PName last">ev</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
+ <div id="NDPrototype46" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">virtual void</span> on_mouse_up(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PModifierQualifier first"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >input::</a></td><td class="PType"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SynMouseEvent</a>&nbsp;</td><td class="PNamePrefix">&amp;</td><td class="PName last">ev</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
  <div class="CBody"><p>called when the mouse is unpressed inside a widget</p></div>
 </div>
 
-<a name="on_mouse_move"></a><a name="Topic50"></a><div class="CTopic TFunction Lokp">
+<a name="on_mouse_move"></a><a name="Topic47"></a><div class="CTopic TFunction Lokp">
  <div class="CTitle">on_mouse_move</div>
- <div id="NDPrototype50" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">virtual void</span> on_mouse_move(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PModifierQualifier first"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >input::</a></td><td class="PType"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SynMouseEvent</a>&nbsp;</td><td class="PNamePrefix">&amp;</td><td class="PName last">ev</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
+ <div id="NDPrototype47" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">virtual void</span> on_mouse_move(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PModifierQualifier first"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >input::</a></td><td class="PType"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SynMouseEvent</a>&nbsp;</td><td class="PNamePrefix">&amp;</td><td class="PName last">ev</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
  <div class="CBody"><p>called when the mouse is moving inside the widget's area</p></div>
 </div>
 
-<a name="get_render_size"></a><a name="Topic51"></a><div class="CTopic TFunction Lokp last">
+<a name="on_mouse_hover"></a><a name="Topic48"></a><div class="CTopic TFunction Lokp">
+ <div class="CTitle">on_mouse_hover</div>
+ <div id="NDPrototype48" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">virtual void</span> on_mouse_hover(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PModifierQualifier first"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >input::</a></td><td class="PType"><a href="../../../index.html#okpClass:input.SynMouseEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SynMouseEvent</a>&nbsp;</td><td class="PNamePrefix">&amp;</td><td class="PName last">ev</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
+ <div class="CBody"><p>called when the mouse hovers over a widget.&nbsp; this only works with the stylus which can detect hover vs. press events</p></div>
+</div>
+
+<a name="on_key_pressed"></a><a name="Topic49"></a><div class="CTopic TFunction Lokp">
+ <div class="CTitle">on_key_pressed</div>
+ <div id="NDPrototype49" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">virtual void</span> on_key_pressed(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PModifierQualifier first"><a href="../../../index.html#okpClass:input.SynKeyEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,11);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >input::</a></td><td class="PType"><a href="../../../index.html#okpClass:input.SynKeyEvent" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,11);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >SynKeyEvent</a>&nbsp;</td><td class="PNamePrefix">&amp;</td><td class="PName last">ev</td></tr></table></td><td class="PAfterParameters">):</td></tr></table></div>
+ <div class="CBody"><p>called when a keyboard key or hardware key is pressed</p></div>
+</div>
+
+<a name="get_render_size"></a><a name="Topic50"></a><div class="CTopic TFunction Lokp last">
  <div class="CTitle">get_render_size</div>
- <div id="NDPrototype51" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> tuple&lt;<span class="SHKeyword">int</span>, <span class="SHKeyword">int</span>&gt; get_render_size():</div>
+ <div id="NDPrototype50" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> tuple&lt;<span class="SHKeyword">int</span>, <span class="SHKeyword">int</span>&gt; get_render_size():</div>
  <div class="CBody"><p>gets the size of the rendered widget. this is for variable sized widgets like text widgets which might have different sizes depending on the supplied text</p></div>
 </div>
 

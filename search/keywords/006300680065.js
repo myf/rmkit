@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("che",["Function"],[["check_resize",,[["ui::MainLoop",,,,0,"File:rmkit/ui/main_loop.cpy:ui.MainLoop.check_resize","okpClass:ui.MainLoop:check_resize"]]]]);

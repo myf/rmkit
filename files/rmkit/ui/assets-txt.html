@@ -8,7 +8,7 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="Asset_Pipeline"></a><a name="Topic91"></a><div class="CTopic TSection LTextFile first">
+<a name="Asset_Pipeline"></a><a name="Topic26"></a><div class="CTopic TSection LTextFile first">
  <div class="CTitle">Asset Pipeline</div>
  <div class="CBody"><div class="CHeading">About</div><p>rmKit has a basic asset pipeline that will package assets for the app into the binary itself.</p><div class="CHeading">Usage</div><p>To use the asset pipeline, set `ASSET_DIR=asset_dir/` in the app's Makefile, like so:</p><pre>EXE=demo.exe<br />FILES=main.cpy<br />ASSET_DIR=assets/<br /><br />include ../actions.make</pre><p>Then run <b>wake assets</b> to generate an assets.h file. Each file that was in ${ASSET_DIR} will now be available in the assets:: namespace, along with its size.</p></div>
 </div>

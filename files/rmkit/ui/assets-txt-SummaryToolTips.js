@@ -1,1 +1,1 @@
-NDSummary.OnToolTipsLoaded("File:rmkit/ui/assets.txt",{91:"<div class=\"NDToolTip TSection LTextFile\"><div class=\"TTSummary\">rmKit has a basic asset pipeline that will package assets for the app into the binary itself.</div></div>"});
+NDSummary.OnToolTipsLoaded("File:rmkit/ui/assets.txt",{26:"<div class=\"NDToolTip TSection LTextFile\"><div class=\"TTSummary\">rmKit has a basic asset pipeline that will package assets for the app into the binary itself.</div></div>"});

@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("pin",["Variable"],[["pinned",,[["ui::Scene",,,,0,"File:rmkit/ui/scene.cpy:ui.Scene.pinned","okpClass:ui.Scene:pinned"]]]]);

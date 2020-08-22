@@ -1,1 +1,1 @@
-NDContentPage.OnToolTipsLoaded({30:"<div class=\"NDToolTip TClass Lokp\"><div class=\"TTSummary\">The widget class is the base of all other widgets. A widget is typically a piece of UI that can receive inputs and draw to screen through the frame buffer</div></div>"});
+NDContentPage.OnToolTipsLoaded({27:"<div class=\"NDToolTip TClass Lokp\"><div class=\"TTSummary\">The widget class is the base of all other widgets. A widget is typically a piece of UI that can receive inputs and draw to screen through the frame buffer</div></div>"});
