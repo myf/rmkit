@@ -8,9 +8,9 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="main_loop.cpy"></a><a name="Topic88"></a><div class="CTopic TFile Lokp first">
+<a name="main_loop.cpy"></a><a name="Topic104"></a><div class="CTopic TFile Lokp first">
  <div class="CTitle">main_loop.cpy</div>
- <div class="CBody"><p>Every app usually has a main loop. rMkit's main loop is managed with the ui::MainLoop class. In general, an app should look like the following:</p><pre><span class="SHComment">// build widgets and place them in scenes</span><br />my_scene = build_scene()<br />ui::MainLoop::set_scene(my_scene)<br /><br /><span class="SHKeyword">while true</span>:<br />  <span class="SHComment">// perform app work, like dispatching events</span><br />  ui::MainLoop::main()<br />  <span class="SHComment">// redraw any widgets that marked themselves dirty</span><br />  ui::MainLoop::redraw()<br />  <span class="SHComment">// read input (blocking read)</span><br />  ui::MainLoop::read_input()</pre></div>
+ <div class="CBody"><p>Every app usually has a main loop. rmkit's main loop is managed with the ui::MainLoop class. In general, an app should look like the following:</p><pre><span class="SHComment">// build widgets and place them in scenes</span><br />my_scene = build_scene()<br />ui::MainLoop::set_scene(my_scene)<br /><br /><span class="SHKeyword">while true</span>:<br />  <span class="SHComment">// perform app work, like dispatching events</span><br />  ui::MainLoop::main()<br />  <span class="SHComment">// redraw any widgets that marked themselves dirty</span><br />  ui::MainLoop::redraw()<br />  <span class="SHComment">// read input (blocking read)</span><br />  ui::MainLoop::read_input()</pre></div>
 </div>
 
 <a name="ui.MainLoop"></a><a name="Topic89"></a><div class="CTopic TClass Lokp">
@@ -32,6 +32,12 @@
  <div class="CTitle">key_event</div>
  <div id="NDPrototype92" class="NDPrototype NoParameterForm"><span class="SHKeyword">static</span> KEY_EVENT key_event</div>
  <div class="CBody"><p>key_event is used for subscribing to key_events</p><pre><span class="SHComment">// d is of type input::SynKeyEvent</span><br />MainLoop::key_event += [=](auto &amp;d) { };</pre></div>
+</div>
+
+<a name="ui.MainLoop.gesture_event"></a><a name="Topic105"></a><div class="CTopic TVariable Lokp">
+ <div class="CTitle">gesture_event</div>
+ <div id="NDPrototype105" class="NDPrototype NoParameterForm"><span class="SHKeyword">static</span> GESTURE_EVENT gesture_event</div>
+ <div class="CBody"><p>gesture_event is used for subscribing to gesture_event</p><pre><span class="SHComment">// d is of type input::GestureEvent</span><br />MainLoop::gesture_event += [=](auto &amp;d) { };</pre></div>
 </div>
 
 <a name="ui.MainLoop.Functions"></a><a name="Topic93"></a><div class="CTopic TGroup Lokp">
